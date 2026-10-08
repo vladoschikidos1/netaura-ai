@@ -1,0 +1,19 @@
+# Local credentials
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Python environments and generated files
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.log
+
+# Editor and macOS files
+.idea/
+.vscode/
+.DS_Store
